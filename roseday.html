@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HAPPY ROSE DAY</title>
+    <link rel="shortcut icon" type="image/png" href="image/heart.png"/>
+     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <style>
+        body{
+            background-image: url(image/rose-374318_1920.jpg);
+        }
+        #but{
+            background-color:white;
+            padding: 5px 25px;
+            border: 5px solid black;
+            font-size: 30px;
+            
+            
+        }
+        .a{
+            color: black;
+        }
+        #demo{
+            color: white;
+            font-size: 30px;
+        }
+        
+         #demoo{
+            color: white;
+             font-size: 40px;
+             text-align:left;
+             font-family: 'Dancing Script', cursive;
+        }
+    
+         #demooo{
+            color: white;
+             font-size: 40px;
+             text-align: left;
+             font-family: 'Dancing Script', cursive;
+        }
+    
+         #demoooo{
+            color: white;
+             font-size: 40px;
+             text-align: left;
+             font-family: 'Dancing Script', cursive;
+        }
+    
+         #demooooo{
+            color:bisque;
+             font-size: 40px;
+             text-align: center;
+             font-family: 'Dancing Script', cursive;
+             font-weight: bold;
+             text-decoration:inherit ;
+        }
+        #bb{
+            color: aqua;
+             font-size: 40px;
+             font-family: 'Dancing Script', cursive;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="demo">      <br></div>
+     <div id="demoo">      <br></div>
+      <div id="demooo">      <br></div>
+      <div id="bb"></div>
+       <div id="demoooo">      <br></div>
+        <div id="demooooo">      <br></div>
+        <div id="image"></div>
+   <button type="button" id="but" > <i class="fa fa-hand-o-up a" aria-hidden="true"></i>
+
+    </button>
+    
+    
+    
+    
+    
+    <script>  
+    
+        
+        
+        var button = document.getElementById("but"),
+  count = 0;
+button.onclick = function() {
+  if(count == 0)
+      {
+          var btn = document.createElement("PARAGRAPH");
+          var t = document.createTextNode("Love You Dear, HAPPY ROSE DAY  ");
+          btn.appendChild(t);
+          document.getElementById("demo").appendChild(btn);
+    
+  
+          count++;
+      }
+    else if(count == 1)
+        {
+            var btn = document.createElement("PARAGRAPH");
+            var t = document.createTextNode("Vo 8 Leaves Yaad He, Jb Mene Tumhe Rose Diya Tha Or Tumne Uski Tuti Hui 8 Leaves Rkhi Thi Vo Mera Diya Hua Pehla Rose Tha Uske Bad Bohot Diye Thee But.......");
+            
+        
+            btn.appendChild(t);
+            document.getElementById("demoo").appendChild(btn);
+            count++;
+        }
+    else if(count == 2)
+        {
+             var btn = document.createElement("PARAGRAPH");
+            var t = document.createTextNode("Tumhe Vo Din Yad He jb hm pune ke koise restaurent me gye the or tumne vha se 1 rose uthaya tha or jb hm vha se bhar aakr ice-cream khane gye or tumne mujhe vo rose diya.. tb me shoke hua 'or pucha ye kha se lai tum pehle to nhi tha' or tumne bola mene restaurent me se uthaliya tha.... tbbb   ");
+            
+             var bn = document.createElement("PARAGRAPH");
+            var b = document.createTextNode("'Ek Or Click Nhi Krogi Button Pe Ki Pura Ek Sath Suna Du Aalsi Chlll Dbaa Puri Stori Sunne Ke Liye...'")
+        
+            btn.appendChild(t);
+            bn.appendChild(b);
+            document.getElementById("demooo").appendChild(btn);
+            document.getElementById("bb").appendChild(bn);
+            count++;
+             
+        }
+     else if(count == 3)
+        {
+             var btn = document.createElement("PARAGRAPH");
+            var t = document.createTextNode(" tbbb me ice-cream ki shop se jldi se bhaga or vapss us restaurent gya... 'vha jakr mene use bola bhaiya me vhi hu jo abhi khana kha kr gya tha to usne bola haan sir boliye, mene usse bola yr tumhare yha se ek rose le skta huu or me tumhare liye vha se rose laya or tumhe diya thaaaaa.... tum bohot hsii thii or mujhe bhi achaa lgaa tha bohot bs soooo ONCE AGAIN ....... ");
+            
+        
+            btn.appendChild(t);
+            document.getElementById("demoooo").appendChild(btn);
+            count++;
+             
+        }
+     else if(count == 4)
+        {
+             var btn = document.createElement("PARAGRAPH");
+            var t = document.createTextNode(" HAPPY ROSE DAY, LOVE U BOHOT SHALLA");
+            
+        
+            btn.appendChild(t);
+            document.getElementById("demooooo").appendChild(btn);
+            count++;
+             
+        }
+   else if(count == 5)
+        {
+            document.getElementById("image").src="image/IMG_1505.JPG"
+            count++;
+             
+        }
+
+
+};
+
+    </script>
+</body>
+</html>
